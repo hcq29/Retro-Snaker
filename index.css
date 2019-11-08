@@ -1,0 +1,162 @@
+body {
+    padding: 0;
+    margin: 0;
+    -moz-user-select: none;
+    /*火狐*/
+    -webkit-user-select: none;
+    /*webkit浏览器*/
+    -ms-user-select: none;
+    /*IE10*/
+    -khtml-user-select: none;
+    /*早期浏览器*/
+    user-select: none;
+}
+
+#start {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    width: 90px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    background: rgb(148, 168, 207);
+    border: none;
+    border-radius: 10px;
+}
+
+#choose {
+    position: absolute;
+    left: 20px;
+    height: 30px;
+    width: 150px;
+    margin-top: 5px;
+}
+
+select {
+    background: rgb(148, 168, 207);
+    border-radius: 10px;
+    width: 60px;
+    height: 100%;
+}
+
+#main {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border: #000 1px solid;
+    background: lightgoldenrodyellow;
+}
+
+.frame {
+    width: 20px;
+    height: 20px;
+    background: lightgoldenrodyellow;
+    display: block;
+    float: left;
+}
+
+.foot {
+    background: rgb(95, 61, 61);
+}
+
+.rightFoot {
+    border-bottom-left-radius: 100% 50%;
+    border-top-left-radius: 100% 50%;
+}
+
+.leftFoot {
+    border-bottom-right-radius: 100% 50%;
+    border-top-right-radius: 100% 50%;
+}
+
+.topFoot {
+    border-bottom-left-radius: 50% 100%;
+    border-bottom-right-radius: 50% 100%;
+}
+
+.bottomFoot {
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+}
+
+
+.bodys {
+    background: rgb(95, 61, 61);
+}
+
+.head {
+    background: rgb(95, 61, 61);
+    background-image: url(images/eyes.png);
+    background-size: 20px;
+}
+
+.leftHead {
+    border-bottom-left-radius: 60% 50%;
+    border-top-left-radius: 60% 50%;
+}
+
+.rigthHead {
+    border-bottom-right-radius: 60% 50%;
+    border-top-right-radius: 60% 50%;
+}
+
+.bottomHead {
+    border-bottom-left-radius: 60% 50%;
+    border-bottom-right-radius: 60% 50%;
+}
+
+.topHead {
+    border-top-left-radius: 60% 50%;
+    border-top-right-radius: 60% 50%;
+}
+
+.rturnUp {
+    border-bottom-right-radius: 50%;
+}
+
+.lturnUp {
+    border-bottom-left-radius: 50%;
+}
+
+.rturnbottom {
+    border-top-right-radius: 50%;
+}
+
+.lturnbottom {
+    border-top-left-radius: 50%;
+}
+
+.btn,
+.btns {
+    width: 100%;
+    position: fixed;
+    bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btns {
+    bottom: 10px;
+}
+
+.modleBtn {
+    width: 100px;
+    height: 40px;
+    background: rgb(148, 168, 207);
+    border: none;
+    border-radius: 10px;
+}
+
+.modleBtn:active{
+    background: rgb(98, 145, 240);
+}
